@@ -1,45 +1,82 @@
 * {
-    background-color: rgb(240, 240, 181);
-    margin: 0;
-    padding: 0;
-    border: 0;
+    
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
     font-family: 'Roboto Slab', serif;
+    margin: 0px;
 }
 
 header {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 5px;
+    background-image: url("/img/bannerTopoMel.png");
+    /* display: flex; */
+    padding: 0;
+    clear: both;
+    background-color: rgba(221, 221, 175, 0.918);
     
 }
 
-.container #nav-header {
-
-    background-image: url(/img/bannerTopoMel.png);
-    background-repeat: repeat;
-    background-position: center;
-    width: 1900px;
-    height: 350px;
-    border: 2px dashed #333;
+#logo {
+    margin-top: 20px;
+    margin-block-end: 2px;
+    margin: 0 auto;
+    margin-block-end: initial;
 }
 
-.container #nav-header .logo {
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    top: 250px;
-    right: 1680px;
-    width: 200px;
-    height: 100px;
+#links {
+    text-align: right;
+    margin-bottom: 0;
+    font-size: 18px;
+   
 }
 
-.container #nav-header .links {
-  
+a {
+    margin: 10px;
+    border-radius: 10px;
+    background-color: rgba(240, 240, 232, 0.534);
+    text-decoration: none;
+    padding: 10px;
 }
+
+.carrinho {
+    text-align: end;
+    text-align: start;
+}
+
+#banner-oferta {
+    margin-top: 0px;
+}
+
+.conteudo {
+  display: flex;
+  background-color: rgba(189, 116, 22, 0.774);
+  margin: 0px;
+}
+
+.conteudo ul{
+    background: rgba(248, 239, 239, 0.822);
+    color: rgb(0, 12, 5);
+    border: 5px solid rgb(92, 57, 57);
+    padding: 30px;
+    display: ; 
+    
+}
+
+.conteudo div {
+    padding: 5px;
+    border: 2px solid red;
+    margin: 15px;
+    /*width: 700px;
+    display: flexbox;
+    justify-content: center; */
+    
+}
+
+.produtos img {
+    max-width: 200px;
+}
+
+
 
 
     
