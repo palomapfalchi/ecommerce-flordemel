@@ -47,18 +47,30 @@ a {
     margin-top: 0px;
 }
 
+.destaques {
+    background-color: rgba(207, 182, 150, 0.774);
+    color: red;
+    text-align: center;
+    font-size: 20px;
+    margin: 0px;
+    padding: 10px;
+    display: block;
+}
+
 .conteudo {
   display: flex;
-  background-color: rgba(189, 116, 22, 0.774);
-  margin: 0px;
+  background-color: rgba(207, 182, 150, 0.774);
+  margin: 10px;
 }
+
 
 .conteudo ul{
     background: rgba(248, 239, 239, 0.822);
     color: rgb(0, 12, 5);
-    border: 5px solid rgb(92, 57, 57);
     padding: 30px;
-    display: ; 
+    display: flex; 
+    width: 920px;
+    text-align: center;
     
 }
 
@@ -74,6 +86,11 @@ a {
 
 .produtos img {
     max-width: 200px;
+}
+
+.produtos .titulo-produto {
+    font-style: italic;
+    color: red;
 }
 
 
