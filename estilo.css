@@ -1,9 +1,11 @@
 * {
-    
+ 
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     font-size: 100%;
-    font: inherit;
+    /* font: inherit; */
     vertical-align: baseline;
-    font-family: 'Roboto Slab', serif;
+    /* font-family: 'Roboto Slab', serif; */
     margin: 0px;
 }
 
@@ -13,6 +15,7 @@ header {
     padding: 0;
     clear: both;
     background-color: rgba(221, 221, 175, 0.918);
+    /* column-width: 80px; */
     
     
 }
@@ -26,14 +29,14 @@ header {
 
 
 .icones {
-    text-align: end;
+    text-align: end ;
     padding: 15px;
     font-size: 30px;
 }
 
 .icones i{
     padding: 15px;
-    color: rgba(88, 75, 56, 0.87);
+    color: rgba(196, 134, 43, 0.87);
 
 }
 
@@ -51,6 +54,7 @@ a {
     text-decoration: none;
     padding: 10px;
     color: black;
+    line-height: 10px;
 }
 
 #banner-oferta {
@@ -58,8 +62,8 @@ a {
 }
 
 .destaques {
-    background-color: rgba(171, 207, 150, 0.774);
-    color: red;
+    background-color: rgba(212, 111, 28, 0.918);
+    color: rgb(17, 1, 1);
     text-align: center;
     font-size: 20px;
     margin: 0px;
@@ -77,27 +81,23 @@ a {
 
 
 .conteudo ul{
-    background: rgba(172, 189, 76, 0.822);
-    color: rgb(0, 12, 5);
+    background: rgba(229, 231, 218, 0.822);
+    color: rgb(0, 0, 0);
     padding: 50px;
     display: flex; 
     justify-content: space-between;
     max-width: 1240px;
     text-align: center;
-    
-    
 }
 
 .conteudo div {
     padding: 5px;
-    border: 2px solid red;
+    border: 2px solid rgba(219, 209, 209, 0.582);
     margin: 15px;
     display: flex;
-
     justify-content: space-between;
     flex-direction: column;
     /*width: 700px;*/
-    justify-content: space-between;
     
 }
 
@@ -109,9 +109,20 @@ a {
 .produtos .titulo-produto {
     margin: 10px;
     font-style: italic;
-    color: red;
+    color: rgb(214, 57, 57);
+    font-size: 100%;
 }
 
+strong {
+    margin: 10px;
+    font-style: italic;
+    color: rgba(5, 4, 4, 0.596);
+    font-size: 120%;
+}
+
+footer {
+    text-align: center;
+}
 
 
 
