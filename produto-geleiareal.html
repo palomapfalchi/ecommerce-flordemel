@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="produto-estilo.css">
-    <link rel="stylesheet" href="estilo.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
         integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,26 +17,25 @@
 
 </head>
 
+
+<header>
+    <img id="logo" src="/img/logoMel.png" alt="logoMel" width="100px">
+    <div class="icones">
+        <i class="fas fa-heart"></i>
+        <i class="fas fa-cart-plus"></i>
+    </div>
+    <div id="links">
+        <a href="/index.html" class="here">Início</a>
+        <a href="/produtos.html">Produtos</a>
+        <a href="/sobre.html">Sobre</a>
+        <a href="/contato.html">Contato</a>
+    </div>
+</header>
+
 <body>
-    <header>
-        <img id="logo" src="/img/logoMel.png" alt="logoMel" width="100px">
-        <div class="icones">
-            <i class="fas fa-heart"></i>
-            <i class="fas fa-cart-plus"></i>
-        </div>
-        <div id="links">
-            <a href="/index.html" class="here">Início</a>
-            <a href="/produtos.html">Produtos</a>
-            <a href="/sobre.html">Sobre</a>
-            <a href="/contato.html">Contato</a>
-        </div>
-
-        <img id="imagem-principal" src="/img/geleia1.png" alt="geleia real">
-        <img src="/img/geleia2.png" alt="geleia2">
-        <img src="/img/geleia3.webp" alt="geleia3">
+    <main>
+        <h1>Geleia Real - 15g</h1>
         <div class="descricao">
-            <p><strong>Geleia Real - pote com 15g</strong></p>
-
             <p>A Geleia Real é um produto natural, produzido pelas abelhas jovens para alimentar a
                 abelha rainha.
                 <br>
@@ -46,7 +44,7 @@
                 nos processos de regeneração das células, desenvolvendo uma importante ação fisiológica.
                 <br>
             </p><br>
-                Alguns desses benefícios incluem:
+            <p>Alguns desses benefícios incluem:</p>
             <ul>
                 <li>Ação antibacteriana;</li>
                 <li>Redução do cansaço físico e mental;</li>
@@ -54,16 +52,29 @@
                 <li>Normalização do apetite;</li>
                 <li>Combate depressão, perda de memória, ansiedade, mal de Alzheimer e mal de Parkinson;</li>
                 <li>Fortalece o sistema imunológico.</li>
-                <br><p>Conservar em temperaturas abaixo de 10ºC por no máximo 18 meses
-                    <br>
-                    Ingestão diária de aproximadamente 1g.
-                </p>
-            </ul>
+            </ul><br>
+                <p class="recomendacao">*Ingestão diária de aproximadamente 1g. Conservar em temperaturas abaixo de 10ºC por no máximo 18 meses.</p>
+
+            
+            <br>
         </div>
-        <div>
+
+        <div class="imagens-alternativas">
+            <img id="imagem-principal" src="/img/geleia1.png" alt="geleia real">
+            <img id="imagem2" src="/img/geleia2.png" alt="geleia2">
+            <img id="imagem3" src="/img/geleia3.webp" alt="geleia3">
+        </div>
+
+        <div class="pagamento">
+            <p class="preco">R$ 40,00</p>
             <p>Parcelamento em até 10x Sem Juros</p>
-            <p> <strong>Preço: R$ 40,00</strong></p>
             <button>Adicionar ao carrinho</button>
         </div>
 
-    </header>
+</body>
+
+<footer>
+    <p>Desenvolvido por Paloma Falchi, 2021</p>
+</footer>
+
+</html>
