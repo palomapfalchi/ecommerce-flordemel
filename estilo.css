@@ -3,9 +3,7 @@
     font-family: 'Raleway', sans-serif;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 100%;
-    /* font: inherit; */
     vertical-align: baseline;
-    /* font-family: 'Roboto Slab', serif; */
     margin: 0;
 }
 
@@ -31,15 +29,13 @@ header {
 
 .icones i{
     padding: 0px;
-    color: rgb(157 119 63 / 87%);
+    color:hsl(49, 87%, 47%);
     height: 0px;
     width: 100%;
     display: flex;
     align-content: flex-end;
-    flex-direction: column;
     font-size: 30px;
     flex-wrap: wrap;
-    align-items: center;
     justify-content: flex-end;
 }
 
@@ -65,7 +61,8 @@ a {
 /* IGUAL PARA TODOS  */
 
 #banner-oferta {
-    margin-top: 0px;
+    /* margin-top: 0px; */
+    margin: 0 auto;
 }
 
 .destaques {
@@ -73,7 +70,6 @@ a {
     color: rgb(17, 1, 1);
     text-align: center;
     font-size: 20px;
-    margin: 0px;
     padding: 10px;
     display: block;
 }
@@ -125,8 +121,8 @@ ul {
 .produtos .titulo-produto {
     margin: 10px;
     font-style: italic;
-    color: rgb(214, 57, 57);
-    font-size: 100%;
+    color: rgb(185, 112, 15);
+    font-size: 18px;
 }
 
 strong {
@@ -143,8 +139,6 @@ footer {
     display: flex;
     justify-content: space-evenly;
     background-color: hsl(49, 87%, 47%);
-    text-align: center;
-    background-color: hsla(49, 87%, 47%, 0.753);
 }
 
 footer p {

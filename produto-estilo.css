@@ -115,26 +115,15 @@ main .descricao {
     margin: 10px;
 }
 
-/* footer {
-    /* text-align: center;
-    background-color: hsla(49, 87%, 47%, 0.753);
-    color: black; 
-
+footer {
     margin-bottom: 0;
-    font-size: 15px;
-    margin-block-end: 0 auto;
+    font-size: 20px;
+    margin-block-end: 10px;
     display: flex;
     justify-content: space-evenly;
-    background-color: hsl(7, 87%, 47%);
+    background-color: hsl(49, 87%, 47%);
 }
 
-footer p{
-    margin-bottom: 0;
-    font-size: 15px;
-    margin-block-end: 0 auto;
-    display: flex;
-    justify-content: space-evenly;
-    
-} */
-
-    
+footer p {
+    margin: 20px;
+}
