@@ -10,41 +10,56 @@
 }
 
 header {
+    
+    display: flex;
+    flex-direction: column;
     background-image: url("/img/banner\ topo\ -\ mel.png");
-    /* display: flex; */
     padding: 0;
     clear: both;
     background-color: rgba(221, 221, 175, 0.918);
-    /* column-width: 80px; */
-    
-    
+    width: 100%;
+    height: 150px;
+    /* column-width: 80px; */    
+}
+
+
+.icones {
+    align-items: flex-end;
+    padding: 5px;
+    padding-top: 0px;
+    /* padding-inline-end: 100px; */
+    font-size: 30px;
+}
+
+.icones i{
+    padding: 0px;
+    color: rgba(196, 134, 43, 0.87);
+    height: 0px;
+    width: 100%;
+    display: flex;
+    align-content: flex-end;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
 }
 
 #logo {
     margin-top: 20px;
     margin-block-end: 2px;
-    margin: 0 auto;
-    margin-block-end: initial;
+    align-items: flex-start;
+    /* object-fit: cover; */
 }
 
 
-.icones {
-    text-align: end ;
-    padding: 15px;
-    font-size: 30px;
-}
-
-.icones i{
-    padding: 15px;
-    color: rgba(196, 134, 43, 0.87);
-
-}
 
 #links {
     text-align: right;
     margin-bottom: 0;
     font-size: 18px;
     margin-block-end: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
 }
 
 a {
@@ -85,9 +100,15 @@ a {
     color: rgb(0, 0, 0);
     padding: 50px;
     display: flex; 
-    justify-content: space-between;
+    flex-wrap: wrap;
     max-width: 1240px;
     text-align: center;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .conteudo div {
@@ -97,13 +118,16 @@ a {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    /*width: 700px;*/
     
+    /*width: 700px;*/
+}
+
+.produtos {
+
 }
 
 .produtos img {
     max-width: 230px;
-    
 }
 
 .produtos .titulo-produto {
