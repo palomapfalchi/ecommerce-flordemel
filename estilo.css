@@ -55,64 +55,53 @@ header {
     flex-direction: row;
 }
 
-/* header .busca {
-    display: flex;
-    justify-content: flex-start;
+.navbar {
+    overflow: hidden;
 }
 
-header .busca .digitar {
-    font-size: 20px;
-    background: #EADDCA;
-    text-align: center;
-    padding-inline: 50px;
-    color: rgba(62, 63, 62, 0.986);
-}
-
-header .busca .pesquisar {
-    background-color: hsl(49, 87%, 47%);
-    font-size: 20px;
-    cursor: pointer;
-    
-} */
-
-.todos-produtos {
-    /* font-size: 14px; */
-    /* text-align: right; */
-    font-weight: 700;
-    color: rgb(255, 255, 255);
-    background-color: transparent;
-    /* position: relative; */
-    cursor: pointer;
-    /* border: none; */
-    width: 262px;
-    /* padding: 8px 53px 8px 0px; */
-    z-index: 2;
-    padding-block-end: 5px;
-}
-
-#links {          
-    margin-bottom: 0;
-    font-size: 20px;
-    margin-block-end: 0 auto;
-    display: flex;
-    justify-content: space-evenly;
-    background-color: hsl(49, 87%, 47%);
-}
-
-a {
-    margin: 15px;
-    /* border-radius: 10px; */
-    /* background-color: rgba(105, 74, 44, 0.795); */
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    padding: 14px 16px;
     text-decoration: none;
-    padding: 5px;
-    color: rgb(5, 4, 4);
-    line-height: 0px;
-}
+  }
 
+  .categorias {
+    overflow: hidden;
+  }
+  
+  .categorias .itens {
+        border: none;
+        color: white;
+        padding: 14px 16px;
+        background-color: inherit;        
+  }
+  
+  .itens {
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+  }
+  
+  .itens a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    display: block;
+  }
+
+  .itens a:hover {
+    background-color: #ddd;
+  }
+
+  .categorias:hover .itens {
+      display: block;
+  }
+  
 /* IGUAL PARA TODOS  */
 
 #banner-oferta {
-    padding-top: 30px;
     padding-block-end: 0px;
     margin: auto;
 }
