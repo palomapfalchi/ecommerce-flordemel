@@ -103,9 +103,74 @@ a {
 
 /* IGUAL PARA TODOS  */
 
-.informacoes .contatos ul{
-    margin: 0;
+.contatos ul {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 10px;
+    text-align: left;
+}
+
+.contatos i{
+    color: hsl(49, 87%, 47%);
+}
+
+
+footer {
+    margin-bottom: 0;
+    font-size: 20px;
+    margin-block-end: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: hsl(49, 87%, 47%);
+}
+
+footer p {
+    margin: 20px;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+    header .busca .digitar {
+        max-width: 100%;
+        min-width: 30%;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+    #links {
+        font-size: 16px;
+    }
+
+    header .busca {
+        max-width: 60%;
+    }
+
+    header .busca .digitar {
+        font-size: 16px;
+        min-width: 30%;
+    }
+
+    header .busca .pesquisar {
+        font-size: 16px;
+    }
+
+    .icones #carrinho {
+        font-size: 25px;
+        margin-right: 100px;
+   }
+
+    .icones #favoritos {
+        font-size: 25px;
+    }
+
+    
+    footer {
+        font-size: 15px;
+    }
+
 }
