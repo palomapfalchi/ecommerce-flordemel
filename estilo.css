@@ -17,7 +17,7 @@ header {
     background-color: rgba(5, 5, 5, 0.918);
     width: 100%;
     height: 150px;
-    /* column-width: 80px; */    
+    column-width: 80px;    
 }
 
 
@@ -29,15 +29,32 @@ header {
 
 .icones i{
     padding: 0px;
-    color:hsl(49, 87%, 47%);
+    color: hsl(49, 87%, 47%);
     height: 0px;
-    width: 100%;
     display: flex;
     align-content: flex-end;
     font-size: 30px;
     flex-wrap: wrap;
     justify-content: flex-end;
+    margin-right: 120px;
 }
+
+.icones #favoritos {
+    display: flex;
+    justify-content: flex-end;
+    margin-inline: 50px;
+    align-content: flex-end;
+    align-items: baseline;
+}
+
+.icones #carrinho { 
+    color: hsl(49, 87%, 47%);
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+    flex-direction: row;
+}
+
 
 #links {          
     margin-bottom: 0;
