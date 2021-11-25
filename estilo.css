@@ -64,7 +64,6 @@ header .busca .digitar {
     font-size: 20px;
     background: #EADDCA;
     text-align: center;
-    padding-inline: 50px;
     color: rgba(62, 63, 62, 0.986);
 }
 
@@ -187,6 +186,54 @@ footer {
 
 footer p {
     margin: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+
+    header .busca .digitar {
+        max-width: 100%;
+        min-width: 30%;
+    }
+
+    .produtos img {
+        max-width: 180px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #links {
+        font-size: 16px;
+    }
+
+    header .busca {
+        max-width: 60%;
+    }
+
+    header .busca .digitar {
+        font-size: 16px;
+    }
+
+    header .busca .pesquisar {
+        font-size: 16px;
+    }
+
+    .icones #carrinho {
+        font-size: 25px;
+        margin-right: 100px;
+   }
+
+    .icones #favoritos {
+        font-size: 25px;
+    }
+
+    .destaques {
+        font-size: 18px;
+    }
+
+    footer {
+        font-size: 15px;
+    }
+
 }
 
 
