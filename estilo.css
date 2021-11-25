@@ -55,7 +55,7 @@ header {
     flex-direction: row;
 }
 
-/* header .busca {
+ header .busca {
     display: flex;
     justify-content: flex-start;
 }
@@ -73,19 +73,14 @@ header .busca .pesquisar {
     font-size: 20px;
     cursor: pointer;
     
-} */
+}
 
 .todos-produtos {
-    /* font-size: 14px; */
-    /* text-align: right; */
     font-weight: 700;
     color: rgb(255, 255, 255);
     background-color: transparent;
-    /* position: relative; */
     cursor: pointer;
-    /* border: none; */
     width: 262px;
-    /* padding: 8px 53px 8px 0px; */
     z-index: 2;
     padding-block-end: 5px;
 }
@@ -101,8 +96,6 @@ header .busca .pesquisar {
 
 a {
     margin: 15px;
-    /* border-radius: 10px; */
-    /* background-color: rgba(105, 74, 44, 0.795); */
     text-decoration: none;
     padding: 5px;
     color: rgb(5, 4, 4);
