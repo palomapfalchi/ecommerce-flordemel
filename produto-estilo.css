@@ -8,7 +8,6 @@
 }
 
 header {
-    
     display: flex;
     flex-direction: column;
     background-image: url("/img/background-mel\ \(copy\).png");
@@ -108,11 +107,9 @@ h1{
     margin: 15px;
     color: red;
     margin-top: 35px;
-
 }
 
 main {
-
     background-color: rgba(219, 209, 209, 0.582);
     margin: 0;
     margin-top: 5px;
@@ -214,7 +211,7 @@ footer p {
     .icones #carrinho {
         font-size: 25px;
         margin-right: 100px;
-   }
+    }
 
     .icones #favoritos {
         font-size: 25px;

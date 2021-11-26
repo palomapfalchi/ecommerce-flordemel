@@ -130,7 +130,6 @@ a {
 }
 
 .conteudo .sobre {
-    /* padding: 10px; */
     border: 2px solid rgba(219, 209, 209, 0.582);
     display: flex;
     justify-content: space-between;
@@ -238,7 +237,7 @@ footer p {
     .icones #carrinho {
         font-size: 25px;
         margin-right: 100px;
-   }
+    }
 
     .icones #favoritos {
         font-size: 25px;
@@ -252,9 +251,7 @@ footer p {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-        
     }
-
 
     footer {
         font-size: 15px;
